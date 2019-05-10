@@ -15,7 +15,7 @@ class MyClass {
     }
 }
 
-var o = new MyClass("Tyriel");
+let o = new MyClass("Tyriel");
 
 o.Say();
 o.run(100);
