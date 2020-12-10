@@ -1,8 +1,24 @@
 @font-face {
-    font-family: "Avenir";
-    src: url("../font/Avenir-Heavy.ttf"); /* 如果使用者電腦中找不到，則從網路下載 */
-  }
+  font-family: "Avenir";
+  src: url("../font/Avenir-Heavy.ttf");
+}
 
-body, html {    
-    font-family: "微軟正黑體";
+@font-face {
+  font-family: "AvenirNext";
+  src: url("../font/AvenirNext-Medium.ttf");
+}
+
+@font-face {
+  font-family: "AvenirNextItalic";
+  src: url("../font/AvenirNext-MediumItalic.ttf");
+}
+
+@font-face {
+  font-family: "PingFangTC";
+  src: url("../font/PingFangTC-Medium.ttf");
+}
+
+body,
+html {
+  font-family: "微軟正黑體";
 }

@@ -1,117 +1,95 @@
-.banner {
-    background: url("../images/index1.jpg") no-repeat right top; 
-    background-size: cover;
-}
-
-.bannerContent {
-    h1 {
+.ABTest-subject {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    h3 {
+        font-family: PingFangTC, AvenirNext;
         font-size: 40px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0.07px;
     }
     p {
+        margin-top: 40px;
+        font-family: PingFangTC, AvenirNext;
         font-size: 24px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.04px;
+        text-align: center;
     }
-    button {
-        font-size: 24px;
-        border-radius: 30px;
-    }
-    color: white;
 }
 
-.content {
-    margin-top: 60px;
-}
-
-.product {
-    .productTitle {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        h1 {
-            font-size: 32px;
-            font-weight: bold;
+.ABTest-flow {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    h3 {
+        width: 457px;
+        font-family: PingFangTC, AvenirNext;
+        font-size: 40px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: 0.07px;
+        text-align: center;
+    }
+    ul {
+        margin-top: 40px;
+    }
+    li:nth-child(1), li:nth-child(3), li:nth-child(5) {
+        width: 280px;
+        border-radius: 6px;
+        border: 0px solid;
+        h4 {
+            padding-top: 18px;
+            font-family: AvenirNextItalic;
+            font-size: 38px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: italic;
+            line-height: 1;
+            letter-spacing: 0.07px;
         }
-        p {
+        h5 {
+            margin-top: 10px;
             font-size: 20px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1;
+            letter-spacing: 0.04px;
         }
-        a {
-            font-size: 16px;
-            color: #AC8A46;
-            text-decoration: none;
+        p { 
+            margin-top: 16px;
+            margin-bottom: 22px; 
+            font-size: 15px;
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.07;
+            letter-spacing: 0.03px;
+            color: #ecf1ff;            
+        }
+        .cust-img-select {
+            width: 56px;
+            height: 24px;
+            object-fit: contain;
+            margin: 4px 6px 8px;
+            // margin-left: 6px;
+            // margin-right: 6px;
         }
     }
-
-    .productAction {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        h1 {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        p {
-            font-size: 16px;
-            margin-bottom: 22px;
-        }
-        button {
-            font-size: 20px;
-            font-weight: bold;
-            border-radius: 30px;
-            border: 2px solid #000000;
-        }
-    }
-}
-
-.productList {
-    background-color: #E0E0E0;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    .productListItem {
+    li:nth-child(2), li:nth-child(4) {
+        width: 50px;
+        padding-top: 71.5px;
+        padding-right: 13.5px;
+        padding-left: 13.5px;
         img {
-            height: 524px;
-        }
-        h1 {
-            margin-top: 8px;
-            font-size: 24px;
-            font-weight: bold;
-        }
-        ul {
-            display: flex;            
-            margin-top: 16px;            
-            li:nth-child(1) {
-                margin-right: 8px;
-            }      
-            li:nth-child(2) {
-                color:#8D8D8D;
-                text-decoration: line-through;
-            }
-        }
-    }
-}
-
-.productGreen {
-    margin-top: 60px;
-    margin-bottom: 60px;
-
-    .productGreenContent {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        h1 {
-            font-size: 32px;
-            font-weight: bold;
-        }
-        h2{
-            font-size: 20px;
-        }
-        p {
-            margin-top: 16px;
-            font-size: 16px;
-        }
-        a {
-            margin-top: 16px;
-            font-size: 16px;
-            color: #AC8A46;
-            text-decoration: none;
+            width: 23px;
         }
     }
 }
